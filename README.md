@@ -33,8 +33,8 @@ It includes environment management, dynamic configuration, structured logging, a
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/fastapi-base-template.git
-cd fastapi-base-template
+git clone https://github.com/subhash-goswami/fastapi-project-stucture.git
+cd fastapi-project-stucture
 ````
 
 ---
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 Create your environment file:
 
 ```bash
-cp .env.example .env
+cp .env-example .env
 ```
 
 Update `.env` values like database URL, allowed origins, and app name.
@@ -150,23 +150,14 @@ ALLOWED_ORIGINS=http://localhost:3000
 When the app starts, you’ll see logs like:
 
 ```
-INFO  Project 'DSG User Management Service' (v1.0.0) is running successfully 🚀
-INFO  RSA keys loaded: ✅
+✅ FastAPI Service (v0.1.0) is running successfully in development mode on 0.0.0.0:8000
 ```
 
 ---
 
 ## 📜 License
 
-MIT License © 2025 — Data Safeguard Inc. or Your Organization Name
+MIT License © 2025 — GNU GENERAL PUBLIC LICENSE
 
 ---
 
-## 💡 Next Steps
-
-* Add your API endpoints under `src/api/v1/`
-* Implement services and database models
-* Configure Keycloak integration if needed
-* Dockerize your app for deployment
-
----
